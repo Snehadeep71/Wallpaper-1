@@ -27,8 +27,17 @@
     min-height: 70vh;
     padding-bottom: 150px;
     padding-top: 50px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    
 }
-
+.asecleft img:nth-child(1){
+    width: 100%;
+    justify-content: center;
+    object-fit: cover;
+    align-items: center;
+    
+}
 .asecleft img:nth-child(2) {
     position: absolute;
     bottom: 80px;
@@ -125,6 +134,8 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        padding: 0;
+        box-sizing: border-box;
     }
     .asecleft img{
         display: flex;
@@ -273,7 +284,7 @@ cursor: pointer;
     border: 2px solid red;
     width: 80%;
     height: 250px;
-    background: url(images/img1.jpg) center center/cover;
+    background: url(images/img12.jpg) center center/cover;
     position: relative;
    
 }
@@ -364,7 +375,7 @@ cursor: pointer;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: url(images/london-bcg.jpg) center center/cover;
+    background: url(images/img18.jpg) center center/cover;
     position: relative;
     padding-bottom: 50px;
 }
